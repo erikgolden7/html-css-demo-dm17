@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+body {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.logo {
+  width: 60px;
+  height: 100%;
+  float: left;
+  background: url(https://cdn.designcrowd.com/blog/2016/March/puppy-day-2016/7_250.jpg)
+    center no-repeat;
+  background-size: contain;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-item {
+  float: left;
+  color: white;
+  font-size: 18px;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: #a68c67;
+}
+
+h1,
+h3 {
+  color: #946f43;
+}
+
+#title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 55px;
+  font-family: ;
+}
+
+#sub-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.center-box {
+  margin: auto;
+  margin-top: 80px;
+  width: 50%;
+  border: 3px solid black;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 5%;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
